@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F825EE9-358A-4177-9D32-851A07600926</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftDataStructures</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EDCBB217869BEBD18C30E886859370DB27AA32E</key>
+		<string>https://github.com/evandorn/SwiftDataStructures.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftDataStructures.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EDCBB217869BEBD18C30E886859370DB27AA32E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/evandorn/SwiftDataStructures.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EDCBB217869BEBD18C30E886859370DB27AA32E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EDCBB217869BEBD18C30E886859370DB27AA32E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftDataStructures</string>
+		</dict>
+	</array>
+</dict>
+</plist>

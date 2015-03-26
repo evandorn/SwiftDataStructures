@@ -14,6 +14,12 @@
 		20ADB0661ABFA2EE00148D5A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0641ABFA2EE00148D5A /* Node.swift */; };
 		20ADB0691ABFA4D200148D5A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0681ABFA4D200148D5A /* LinkedList.swift */; };
 		20ADB06A1ABFA4D200148D5A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0681ABFA4D200148D5A /* LinkedList.swift */; };
+		20ADB06C1AC0881100148D5A /* QueueNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB06B1AC0881100148D5A /* QueueNode.swift */; };
+		20ADB06D1AC0881100148D5A /* QueueNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB06B1AC0881100148D5A /* QueueNode.swift */; };
+		20ADB06F1AC0AF4500148D5A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB06E1AC0AF4500148D5A /* Queue.swift */; };
+		20ADB0701AC0AF4500148D5A /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB06E1AC0AF4500148D5A /* Queue.swift */; };
+		20ADB0721AC0BCDE00148D5A /* SearchingSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0711AC0BCDE00148D5A /* SearchingSorting.swift */; };
+		20ADB0731AC0BCDE00148D5A /* SearchingSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0711AC0BCDE00148D5A /* SearchingSorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 		20ADB0591ABFA2C300148D5A /* SwiftDataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStructuresTests.swift; sourceTree = "<group>"; };
 		20ADB0641ABFA2EE00148D5A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		20ADB0681ABFA4D200148D5A /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		20ADB06B1AC0881100148D5A /* QueueNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueNode.swift; sourceTree = "<group>"; };
+		20ADB06E1AC0AF4500148D5A /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		20ADB0711AC0BCDE00148D5A /* SearchingSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchingSorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				20ADB0641ABFA2EE00148D5A /* Node.swift */,
+				20ADB06B1AC0881100148D5A /* QueueNode.swift */,
 			);
 			name = Interfaces;
 			sourceTree = "<group>";
@@ -122,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				20ADB0681ABFA4D200148D5A /* LinkedList.swift */,
+				20ADB06E1AC0AF4500148D5A /* Queue.swift */,
+				20ADB0711AC0BCDE00148D5A /* SearchingSorting.swift */,
 			);
 			name = Structures;
 			sourceTree = "<group>";
@@ -233,8 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADB0721AC0BCDE00148D5A /* SearchingSorting.swift in Sources */,
 				20ADB0691ABFA4D200148D5A /* LinkedList.swift in Sources */,
+				20ADB06C1AC0881100148D5A /* QueueNode.swift in Sources */,
 				20ADB0651ABFA2EE00148D5A /* Node.swift in Sources */,
+				20ADB06F1AC0AF4500148D5A /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADB0701AC0AF4500148D5A /* Queue.swift in Sources */,
 				20ADB06A1ABFA4D200148D5A /* LinkedList.swift in Sources */,
 				20ADB05A1ABFA2C300148D5A /* SwiftDataStructuresTests.swift in Sources */,
 				20ADB0661ABFA2EE00148D5A /* Node.swift in Sources */,
+				20ADB06D1AC0881100148D5A /* QueueNode.swift in Sources */,
+				20ADB0731AC0BCDE00148D5A /* SearchingSorting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +446,7 @@
 				20ADB05F1ABFA2C300148D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20ADB0601ABFA2C300148D5A /* Build configuration list for PBXNativeTarget "SwiftDataStructuresTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +455,7 @@
 				20ADB0621ABFA2C300148D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

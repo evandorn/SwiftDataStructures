@@ -12,7 +12,7 @@ public class LinkedList<T: Equatable> {
     
     // Create a new Node instance
     private var head: Node<T> = Node<T>()
-     
+    
     // The number of items in the list
     var count: Int {
         // empty list case

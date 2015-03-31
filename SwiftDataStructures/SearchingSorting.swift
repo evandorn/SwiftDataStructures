@@ -17,7 +17,6 @@ public class SearchingSorting {
      *  binary search algorthim. Find the value at the middle index.
      *  note the use of the tuple to organize the upper and lower search bounds.
      */
-    
     func binarySearch(var numberList: Array<Int>, value: Int, range:(min: Int, max: Int)) {
         var midIndex: Double = round(Double((range.min + range.max) / 2))
         var midNumber = numberList[Int(midIndex)]
@@ -39,7 +38,6 @@ public class SearchingSorting {
      * insertion sort algorithm - rank set of random numbers lowest to highest by
      * inserting numbers based on a sorted and unsorted side.
      */
-    
     func insertionSort(var numberList: Array<Int>) -> Array<Int> {
         
         var i, j, value: Int
@@ -69,7 +67,6 @@ public class SearchingSorting {
      *  groups of two items from left to right. The highest item in the set will bubble up to the
      *  right side of the set after the first iteration.
      */
-    
     func bubbleSort(var numberList: Array<Int>) -> Array<Int> {
         
         var i, j, k, numIterations, value: Int
@@ -133,8 +130,24 @@ public class SearchingSorting {
     }
     
     /*
-     *
-     *
-     *
+     *  Merge sort works by breaking down each side and sorting as it comes back up
+     *  Each left & right side is sorted by using pointers as to which value should be included
+     *  to sort, as each side is sorted as it comes back up the "tree" we can be sure that our pointers
+     *  can be safely moved left to right whereby the values are increasing
      */
+    func mergeSort(left:[Int], right:[Int]) -> [Int] {
+        
+        var sortedArray: [Int] = []
+        var leftCount = 0
+        var rightCount = 0
+        
+        (left.count + right.count).times { i in
+            if (leftCount < left.count && (rightCount >= right.count || left[leftCount] <= right[rightCount])) {
+                sortedArray.append(left[leftCount++])
+            } else if (rightCount < right.count && (leftCount >= left.count || right[rightCount] < left[leftCount])) {
+                sortedArray.append(right[rightCount++])
+            }
+        }
+        return sortedArray
+    }
 }

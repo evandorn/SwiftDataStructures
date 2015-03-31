@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204A9C661AC9CA8400023A01 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C651AC9CA8400023A01 /* Graph.swift */; };
+		204A9C671AC9CA8400023A01 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C651AC9CA8400023A01 /* Graph.swift */; };
+		204A9C6C1AC9CF4D00023A01 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C6B1AC9CF4D00023A01 /* Extensions.swift */; };
+		204A9C6D1AC9CF4D00023A01 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C6B1AC9CF4D00023A01 /* Extensions.swift */; };
+		204A9C6F1AC9D51F00023A01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C6E1AC9D51F00023A01 /* Stack.swift */; };
+		204A9C701AC9D51F00023A01 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204A9C6E1AC9D51F00023A01 /* Stack.swift */; };
 		20ADB04D1ABFA2C300148D5A /* SwiftDataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ADB04C1ABFA2C300148D5A /* SwiftDataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20ADB0531ABFA2C300148D5A /* SwiftDataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ADB0471ABFA2C300148D5A /* SwiftDataStructures.framework */; };
 		20ADB05A1ABFA2C300148D5A /* SwiftDataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB0591ABFA2C300148D5A /* SwiftDataStructuresTests.swift */; };
@@ -33,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204A9C651AC9CA8400023A01 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		204A9C6B1AC9CF4D00023A01 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		204A9C6E1AC9D51F00023A01 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		20ADB0471ABFA2C300148D5A /* SwiftDataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADB04B1ABFA2C300148D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20ADB04C1ABFA2C300148D5A /* SwiftDataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDataStructures.h; sourceTree = "<group>"; };
@@ -68,6 +77,7 @@
 		20ADB03D1ABFA2C300148D5A = {
 			isa = PBXGroup;
 			children = (
+				204A9C6B1AC9CF4D00023A01 /* Extensions.swift */,
 				20ADB0491ABFA2C300148D5A /* SwiftDataStructures */,
 				20ADB0561ABFA2C300148D5A /* SwiftDataStructuresTests */,
 				20ADB0481ABFA2C300148D5A /* Products */,
@@ -134,6 +144,8 @@
 				20ADB0681ABFA4D200148D5A /* LinkedList.swift */,
 				20ADB06E1AC0AF4500148D5A /* Queue.swift */,
 				20ADB0711AC0BCDE00148D5A /* SearchingSorting.swift */,
+				204A9C651AC9CA8400023A01 /* Graph.swift */,
+				204A9C6E1AC9D51F00023A01 /* Stack.swift */,
 			);
 			name = Structures;
 			sourceTree = "<group>";
@@ -245,11 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204A9C661AC9CA8400023A01 /* Graph.swift in Sources */,
 				20ADB0721AC0BCDE00148D5A /* SearchingSorting.swift in Sources */,
 				20ADB0691ABFA4D200148D5A /* LinkedList.swift in Sources */,
 				20ADB06C1AC0881100148D5A /* QueueNode.swift in Sources */,
+				204A9C6F1AC9D51F00023A01 /* Stack.swift in Sources */,
 				20ADB0651ABFA2EE00148D5A /* Node.swift in Sources */,
 				20ADB06F1AC0AF4500148D5A /* Queue.swift in Sources */,
+				204A9C6C1AC9CF4D00023A01 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20ADB0701AC0AF4500148D5A /* Queue.swift in Sources */,
+				204A9C701AC9D51F00023A01 /* Stack.swift in Sources */,
 				20ADB06A1ABFA4D200148D5A /* LinkedList.swift in Sources */,
+				204A9C671AC9CA8400023A01 /* Graph.swift in Sources */,
+				204A9C6D1AC9CF4D00023A01 /* Extensions.swift in Sources */,
 				20ADB05A1ABFA2C300148D5A /* SwiftDataStructuresTests.swift in Sources */,
 				20ADB0661ABFA2EE00148D5A /* Node.swift in Sources */,
 				20ADB06D1AC0881100148D5A /* QueueNode.swift in Sources */,

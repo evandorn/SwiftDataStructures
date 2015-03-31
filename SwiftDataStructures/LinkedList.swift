@@ -37,7 +37,7 @@ public class LinkedList<T: Equatable> {
         // set the head node first
         if(head.value == nil) {
             head.value = value
-            return;
+            return
         }
         
         // iteration variables
